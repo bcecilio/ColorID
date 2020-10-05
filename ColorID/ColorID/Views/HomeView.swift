@@ -13,6 +13,7 @@ class HomeView: UIView {
         let button = UIButton()
         button.backgroundColor = .systemBlue
         button.layer.cornerRadius = 12
+        button.setTitle("Augmented Reality", for: .normal)
         return button
     }()
 
@@ -35,7 +36,9 @@ class HomeView: UIView {
         arButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             arButton.centerYAnchor.constraint(equalTo: centerYAnchor),
-            arButton.centerXAnchor.constraint(equalTo: centerXAnchor)
+            arButton.centerXAnchor.constraint(equalTo: centerXAnchor),
+            arButton.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.50),
+            arButton.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.07)
         ])
     }
 }
