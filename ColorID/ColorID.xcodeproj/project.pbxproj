@@ -16,6 +16,7 @@
 		B7323100252AB519005CFD0F /* ColorIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73230FF252AB519005CFD0F /* ColorIDTests.swift */; };
 		B732310B252AB519005CFD0F /* ColorIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B732310A252AB519005CFD0F /* ColorIDUITests.swift */; };
 		B7323125252AB7D8005CFD0F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323124252AB7D8005CFD0F /* ARView.swift */; };
+		B732312E252AB838005CFD0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B732312D252AB838005CFD0F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B732310A252AB519005CFD0F /* ColorIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIDUITests.swift; sourceTree = "<group>"; };
 		B732310C252AB519005CFD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7323124252AB7D8005CFD0F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		B732312D252AB838005CFD0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B7323124252AB7D8005CFD0F /* ARView.swift */,
+				B732312D252AB838005CFD0F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				B73230ED252AB517005CFD0F /* ViewController.swift in Sources */,
 				B7323125252AB7D8005CFD0F /* ARView.swift in Sources */,
 				B73230E9252AB517005CFD0F /* AppDelegate.swift in Sources */,
+				B732312E252AB838005CFD0F /* HomeView.swift in Sources */,
 				B73230EB252AB517005CFD0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
