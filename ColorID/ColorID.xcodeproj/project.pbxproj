@@ -15,6 +15,7 @@
 		B73230F5252AB519005CFD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73230F3252AB519005CFD0F /* LaunchScreen.storyboard */; };
 		B7323100252AB519005CFD0F /* ColorIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73230FF252AB519005CFD0F /* ColorIDTests.swift */; };
 		B732310B252AB519005CFD0F /* ColorIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B732310A252AB519005CFD0F /* ColorIDUITests.swift */; };
+		B7323125252AB7D8005CFD0F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323124252AB7D8005CFD0F /* ARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B7323106252AB519005CFD0F /* ColorIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B732310A252AB519005CFD0F /* ColorIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIDUITests.swift; sourceTree = "<group>"; };
 		B732310C252AB519005CFD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7323124252AB7D8005CFD0F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,10 @@
 		B73230E7252AB517005CFD0F /* ColorID */ = {
 			isa = PBXGroup;
 			children = (
-				B73230E8252AB517005CFD0F /* AppDelegate.swift */,
-				B73230EA252AB517005CFD0F /* SceneDelegate.swift */,
-				B73230EC252AB517005CFD0F /* ViewController.swift */,
-				B73230EE252AB517005CFD0F /* Main.storyboard */,
-				B73230F1252AB519005CFD0F /* Assets.xcassets */,
-				B73230F3252AB519005CFD0F /* LaunchScreen.storyboard */,
+				B7323129252AB7DE005CFD0F /* Views */,
+				B7323120252AB7AF005CFD0F /* ViewControllers */,
+				B732311F252AB794005CFD0F /* Storyboards */,
+				B732311B252AB77F005CFD0F /* SupportingFiles */,
 				B73230F6252AB519005CFD0F /* Info.plist */,
 			);
 			path = ColorID;
@@ -126,6 +126,41 @@
 				B732310C252AB519005CFD0F /* Info.plist */,
 			);
 			path = ColorIDUITests;
+			sourceTree = "<group>";
+		};
+		B732311B252AB77F005CFD0F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B73230E8252AB517005CFD0F /* AppDelegate.swift */,
+				B73230EA252AB517005CFD0F /* SceneDelegate.swift */,
+				B73230F1252AB519005CFD0F /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B732311F252AB794005CFD0F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B73230EE252AB517005CFD0F /* Main.storyboard */,
+				B73230F3252AB519005CFD0F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7323120252AB7AF005CFD0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B73230EC252AB517005CFD0F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B7323129252AB7DE005CFD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7323124252AB7D8005CFD0F /* ARView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73230ED252AB517005CFD0F /* ViewController.swift in Sources */,
+				B7323125252AB7D8005CFD0F /* ARView.swift in Sources */,
 				B73230E9252AB517005CFD0F /* AppDelegate.swift in Sources */,
 				B73230EB252AB517005CFD0F /* SceneDelegate.swift in Sources */,
 			);
