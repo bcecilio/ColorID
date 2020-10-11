@@ -9,7 +9,7 @@ import UIKit
 
 class HomeView: UIView {
 
-    private lazy var arButton: UIButton = {
+    public lazy var arButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .systemBlue
         button.layer.cornerRadius = 12

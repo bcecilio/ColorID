@@ -18,8 +18,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        setupTargets()
+    }
+    
+    private func setupTargets() {
+        homeView.arButton.addTarget(self, action: #selector(arButtonPressed), for: .touchUpInside)
     }
 
-
+    @objc private func arButtonPressed() {
+        let arVC = ARController()
+        UIViewController.resetWindow(arVC)
+    }
 }
 
