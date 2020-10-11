@@ -15,8 +15,9 @@
 		B73230F5252AB519005CFD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73230F3252AB519005CFD0F /* LaunchScreen.storyboard */; };
 		B7323100252AB519005CFD0F /* ColorIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73230FF252AB519005CFD0F /* ColorIDTests.swift */; };
 		B732310B252AB519005CFD0F /* ColorIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B732310A252AB519005CFD0F /* ColorIDUITests.swift */; };
-		B7323125252AB7D8005CFD0F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323124252AB7D8005CFD0F /* ARView.swift */; };
+		B7323125252AB7D8005CFD0F /* AugmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323124252AB7D8005CFD0F /* AugmentedView.swift */; };
 		B732312E252AB838005CFD0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B732312D252AB838005CFD0F /* HomeView.swift */; };
+		B7D7E92D2533AC8B008E388A /* ARController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D7E92C2533AC8B008E388A /* ARController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		B7323106252AB519005CFD0F /* ColorIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B732310A252AB519005CFD0F /* ColorIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIDUITests.swift; sourceTree = "<group>"; };
 		B732310C252AB519005CFD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7323124252AB7D8005CFD0F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		B7323124252AB7D8005CFD0F /* AugmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedView.swift; sourceTree = "<group>"; };
 		B732312D252AB838005CFD0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B7D7E92C2533AC8B008E388A /* ARController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARController.swift; path = ColorID/Views/ARController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		B7323120252AB7AF005CFD0F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B7D7E92C2533AC8B008E388A /* ARController.swift */,
 				B73230EC252AB517005CFD0F /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -160,7 +163,7 @@
 		B7323129252AB7DE005CFD0F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B7323124252AB7D8005CFD0F /* ARView.swift */,
+				B7323124252AB7D8005CFD0F /* AugmentedView.swift */,
 				B732312D252AB838005CFD0F /* HomeView.swift */,
 			);
 			path = Views;
@@ -297,9 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73230ED252AB517005CFD0F /* ViewController.swift in Sources */,
-				B7323125252AB7D8005CFD0F /* ARView.swift in Sources */,
+				B7323125252AB7D8005CFD0F /* AugmentedView.swift in Sources */,
 				B73230E9252AB517005CFD0F /* AppDelegate.swift in Sources */,
 				B732312E252AB838005CFD0F /* HomeView.swift in Sources */,
+				B7D7E92D2533AC8B008E388A /* ARController.swift in Sources */,
 				B73230EB252AB517005CFD0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
